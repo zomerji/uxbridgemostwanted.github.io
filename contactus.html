@@ -1,0 +1,82 @@
+<html>
+
+<head>
+	<title>Contact Us</title>
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<nav class="navbar">
+		<ul>
+			<li>
+				<a href="index.html">
+					<img class="logo" src="images/logo.png" alt="Logo">
+				</a>
+			</li>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<div class="dropdown">
+					<button class="dropbtn">Suspects</button>
+					<div class="dropdown-content">
+						<a href="cybercrime.html">Cybercrime</a>
+						<a href="identitycrime.html">Identity Crime</a>
+						<a href="intellectualproperty.html">Intellectual Property</a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<a href="contactus.html">Contact Us</a>
+			</li>
+		</ul>
+	</nav>
+
+	<section class="content">
+		<h1>Contact Us</h1>
+		<p class="center">Use this form to report any concerns, sightings, or crimes, or ask about anything related to this website. It cannot be used in an emergency. In an emergency, please dial 999.</p>
+
+		<form action="submit.html">
+		  <label for="fname" style="font-family: sfpro-display-light;">First Name</label>
+		  <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+		  <label for="lname" style="font-family: sfpro-display-light;">Last Name</label>
+		  <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+		  <label for="email" style="font-family: sfpro-display-light;">Email Address</label>
+		  <input type="text" id="email" name="email" placeholder="Your email address...">
+
+		  <label for="subject" style="font-family: sfpro-display-light;">Subject</label>
+		  <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+		  <input type="submit" value="Submit">
+		</form>
+	</section>
+
+	<footer class="ft-main">
+		<div class="ft-main-item">
+			<h3>Home</h3>
+			<ul class="footerlist">
+				<li><a href="/index.html#section2">News</a></li>
+			</ul>
+		</div>
+		<div class="ft-main-item">
+			<h3>Suspects</h3>
+			<ul class="footerlist">
+				<li><a href="cybercrime.html">Cybercrime</a></li>
+				<li><a href="identitycrime.html">Identity Crime</a></li>
+				<li><a href="intellectualproperty.html">Intellectual Property</a></li>
+			</ul>
+		</div>
+		<div class="ft-main-item">
+			<h3>Contact</h3>
+			<ul class="footerlist">
+				<li><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</div>
+	</footer>
+
+</body>
+</html>
